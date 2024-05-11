@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.abt-us {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+}
+
+.he-ab {
+    width: 50%;
+}
+
+.he-ab h1 {
+    color: rgb(255, 103, 129);
+}
+
+.he-ab p {
+    font-size: 20px;
+}
+
+.navbar .login-a {
+    background-color: rgb(255, 103, 129);
+    padding: 4px 8px;
+    border-radius: 5px;
+    position: relative;
+    /* margin: 0px 20px; */
+    margin-bottom: 5px;
+    margin-right: 20px;
+
+}
+
+.login-a a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.login-a:hover {
+    background: rgb(5, 168, 168);
+}
+
+.login-a a:hover {
+    /* color: rgb(5, 168, 168); */
+    letter-spacing: 2px;
+}

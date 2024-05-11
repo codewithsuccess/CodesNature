@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.content{
+    height: 90vh;
+}
+.heading-b {
+    height: 10vh;
+    text-align: center;
+    padding: 20px 5px;
+}
+.heading-b h1{
+    color:rgb(255, 103, 129);
+}
+.heading-b p{
+    margin-top: 10px;
+}
+.blog-c-s {
+    margin: auto;
+    height: 40vh;
+    width: 50%;
+    text-align: center;
+    padding: 35px 2px;
+    margin-top: 10vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.blog-c-s h2{
+    color: rgb(255, 103, 129);
+    font-size: 50px;
+}
+.blog-c-s p{
+    font-size: 25px;
+}
+
+.navbar .login-b {
+    background-color: rgb(255, 103, 129);
+    padding: 4px 8px;
+    border-radius: 5px;
+    position: relative;
+    /* margin: 0px 20px; */
+    margin-bottom: 5px ;
+    margin-right: 20px;
+
+}
+.login-b a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.login-b:hover {
+    background: rgb(5, 168, 168);
+}
+
+.login-b a:hover {
+    /* color: rgb(5, 168, 168); */
+    letter-spacing: 2px;
+}

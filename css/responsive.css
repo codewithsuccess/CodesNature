@@ -1,0 +1,142 @@
+/* responsive nav-bar and footer */
+@media screen and (max-width: 450px) {
+    .footer {
+        height: 15vh;
+    }
+}
+
+@media screen and (max-width: 433px) {
+    header {
+        height: 15vh;
+    }
+}
+
+
+/*Responsive navbar*/
+@media screen and (max-width: 850px) {
+    .navbar ul {
+        display: none;
+    }
+
+    .login {
+        display: none;
+    }
+
+    .login-a {
+        display: none;
+    }
+
+    .login-b {
+        display: none;
+    }
+
+    .login-c {
+        display: none;
+    }
+
+    .toggle_btn {
+        display: block;
+    }
+
+    .dropdown_menu {
+        display: block;
+        padding-right: 5px;
+    }
+
+    .dropdown_menu li {
+        padding: 0.7rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .dropdown_menu li a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .dropdown_menu {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        border-radius: 12px;
+    }
+
+    .dropdown_menu.open {
+        height: 228px;
+        z-index: 1;
+    }
+}
+
+@media screen and (max-width: 1312px) {
+    .blog-part {
+        height: 510vh;
+    }
+}
+
+@media screen and (max-width: 805px) {
+    .more {
+        margin-top: 50px;
+    }
+
+    .more a {
+        padding: 15px 15px;
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 805px) {
+    .body {
+        height: 600vh;
+    }
+}
+
+/*About us*/
+@media screen and (max-width: 810px) {
+    .abt-us {
+        flex-direction: column;
+        height: 250vh;
+    }
+}
+
+@media screen and (max-width: 615px) {
+    .img-ab img {
+        width: 300px;
+    }
+}
+
+/*Blog */
+@media screen and (max-width: 550px) {
+    .heading-b {
+        height: 25vh;
+        margin-bottom: 10px;
+    }
+
+    .content {
+        height: 150vh;
+    }
+}
+
+@media screen and (max-width: 605px) {
+    .blog-c-s {
+        margin: auto;
+        height: 60vh;
+        width: 300px;
+        text-align: center;
+        padding: 35px 2px;
+        margin-top: 10vh;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+}
+
+/*RESPONSIVE Contact*/
+@media screen and (max-width: 455px) {
+    .h {
+        height: 38vh;
+    }
+
+    .form {
+        overflow: hidden;
+    }
+}
